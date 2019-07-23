@@ -1,0 +1,92 @@
+/*navbar樣式 固定在最上方 未完成*/
+.navbar{
+  font-size: 20px;
+  width: 100vw;
+  z-index: 9989;
+  background-color:#d2e9ff;
+  height:50px;
+}
+.nav-item{
+  margin-left: 1px;
+}
+
+.container{
+  padding: 20px;
+  top: 50px;
+  margin-left: 20px;
+}
+.btn{
+  width: 100px;
+  margin: 10px;
+}
+.flexbox, .box-left{
+  display: flex;
+}
+.box-left{
+  justify-content: center;
+}
+.box-right{
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.card-title{
+  justify-content: center;
+}
+.fas{
+  margin: 10px;
+}
+.card-title{
+  width: 250px;
+}
+.modal-img{
+  width: auto;
+}
+.sign-name{
+  font-size: 16px;
+}
+.bottom{
+  border-bottom:1px solid 		#bebebe	;
+  margin-top: 10px;
+  padding-bottom: 2px;
+}
+.btngroup{
+  display: flex;
+}
+/*like按鈕選定變色*/
+.new-style{
+  background-color: #DC3545;
+  color: white;
+}
+/*modal彈出不會被navbar擋住*/
+#exampleModal{
+  top: 50px;
+}
+/*搜尋及mode切換按鈕樣式*/
+#search-bar{
+  margin-bottom:20px;
+  display:inline-block;
+}
+.mode-btn{
+  float: right;
+  font-size: 25px;
+}
+.search{
+  margin: 0px;
+}
+i.fa{
+  margin: 5px;
+}
+/*list mode*/
+.list-group{
+  width:100vw;
+}
+.list-more,.list-like{
+  float:right;
+}
+.list-group-item p{
+  display: inline-block;
+  line-height: 50px;
+  font-size: 20px;
+}
