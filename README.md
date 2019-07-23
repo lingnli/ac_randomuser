@@ -7,6 +7,4 @@ Alphacamp class project!
 - different color to different gender
 
 The website looks like this:
-![Image of indexpage](https://upload.cc/i1/2019/07/23/2QMkTc.png
-
-)
+![Image of indexpage](https://upload.cc/i1/2019/07/23/2QMkTc.png)
